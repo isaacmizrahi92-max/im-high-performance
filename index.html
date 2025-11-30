@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IM High-Performance Coaching — Isaac Mizrahi</title>
+  <meta name="description" content="High-Performance Mindset Coach for athletes & entertainers. Master the mental game. Perform with confidence.">
+  <style>
+    /* Simple modern styles — single file, no dependencies */
+    :root{
+      --bg:#080808; --card:#0f0f0f; --accent:#d4a34a; --muted:#bdbdbd; --glass: rgba(255,255,255,0.03);
+      --maxw:1100px;
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#070707 0%, #0a0a0a 100%);color:#fff;line-height:1.45}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;gap:18px;padding:18px 0}
+    .logo{display:flex;align-items:center;gap:12px}
+    .logo img{height:56px;width:auto;border-radius:6px;object-fit:contain;background:var(--glass);padding:6px}
+    h1{font-size:28px;margin:0}
+    p.lead{color:var(--muted);margin:6px 0 0}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;padding:36px 0;align-items:center}
+    .card{background:var(--card);border-radius:14px;padding:24px;box-shadow:0 6px 30px rgba(0,0,0,0.6)}
+    .cta{display:inline-block;background:var(--accent);color:#070707;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700}
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px}
+    .service{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:16px;border-radius:10px}
+    .section{padding:36px 0}
+    .small{color:var(--muted);font-size:14px}
+    ul{padding-left:18px}
+    .testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+    footer{padding:28px 0;color:var(--muted);font-size:14px;border-top:1px solid rgba(255,255,255,0.03);margin-top:28px}
+    label{display:block;margin-top:12px;font-weight:600}
+    input,textarea,select{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:#fff;margin-top:6px}
+    @media(max-width:880px){ .hero{grid-template-columns:1fr; } .logo img{height:46px} h1{font-size:22px} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header>
+      <div class="logo">
+        <!-- Replace "logo.png" with your real logo filename (same folder) -->
+        <img src="logo.png" alt="IM High-Performance Coaching logo" onerror="this.style.display='none'">
+        <div>
+          <div style="font-weight:700">IM High-Performance Coaching</div>
+          <div class="small">High-Performance Mindset Coach — Isaac Mizrahi</div>
+        </div>
+      </div>
+      <div style="margin-left:auto">
+        <a class="cta" href="#booking">Book a Free Intro</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Unshakeable Mindset. Unstoppable Performance.</h1>
+          <p class="lead">High-performance mindset coaching for athletes, actors, and entertainers. Build confidence, master focus, and perform at your highest under pressure.</p>
+
+          <div class="section card" style="margin-top:18px">
+            <h3 style="margin-top:0">What I help with</h3>
+            <div class="services">
+              <div class="service"><strong>Confidence</strong><div class="small">Tools to perform without second-guessing.</div></div>
+              <div class="service"><strong>Focus & Routines</strong><div class="small">Pre-performance routines that center you.</div></div>
+              <div class="service"><strong>Pressure Training</strong><div class="small">Simulated pressure drills and mental rehearsal.</div></div>
+              <div class="service"><strong>On-Set/Game Support</strong><div class="small">Live coaching during auditions, games, and sets.</div></div>
+            </div>
+            <div style="margin-top:16px">
+              <a class="cta" href="#services">See Services</a>
+              <a style="margin-left:12px;color:var(--muted);text-decoration:none" href="#about">Learn more</a>
+            </div>
+          </div>
+
+        </div>
+
+        <aside>
+          <div class="card" style="text-align:center">
+            <h3 style="margin-top:6px">Free 10-Min Intro</h3>
+            <p class="small">Try a no-pressure intro call to see how mindset coaching can move your performance.</p>
+            <a class="cta" href="#booking" style="display:inline-block;margin-top:12px">Book Free Intro</a>
+
+            <hr style="border:none;height:1px;background:rgba(255,255,255,0.04);margin:18px 0">
+
+            <div style="text-align:left">
+              <strong>Quick Offerings</strong>
+              <ul style="margin:8px 0;color:var(--muted)">
+                <li>1-on-1 Sessions (60 min)</li>
+                <li>Mindset Bootcamp (4 weeks)</li>
+                <li>On-Set/Game-Day Coaching</li>
+                <li>VIP Retainers</li>
+              </ul>
+            </div>
+
+            <div style="margin-top:12px" class="small">Rates from $150/session — packages available.</div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="section">
+        <div class="card">
+          <h2 style="margin-top:0">About Isaac</h2>
+          <p class="small">I guide athletes and entertainers to perform better by training the mind. My sessions combine mental skills, visualization, routine-building, and pressure rehearsal — practical strategies that deliver consistent results on the field, on stage, and on camera.</p>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <h2>Services</h2>
+        <div class="card">
+          <ul>
+            <li><strong>1-on-1 Mindset Coaching</strong> — Personalized weekly sessions and custom plans.</li>
+            <li><strong>Pre-Performance Prep</strong> — Targeted sessions before auditions/competitions.</li>
+            <li><strong>On-Set / Game-Day Support</strong> — Live coaching to manage pressure in real-time.</li>
+            <li><strong>Mindset Bootcamp (4 weeks)</strong> — Intensive, results-oriented program.</li>
+            <li><strong>Team & Group Workshops</strong> — For teams, productions, and studios.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="programs" class="section">
+        <h2>Programs</h2>
+        <div class="card">
+          <h3 style="margin-bottom:4px">Mindset Bootcamp — 4 weeks</h3>
+          <p class="small">Weekly training, accountability, and pressure rehearsal to build reliable performance routines.</p>
+
+          <h3 style="margin-top:12px;margin-bottom:4px">VIP Elite Retainer</h3>
+          <p class="small">Dedicated support, pre-event prep, and on-call coaching for pro athletes & actors in production.</p>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section">
+        <h2>Testimonials</h2>
+        <div class="card testimonials">
+          <div>
+            <strong>Pro Athlete — J.D.</strong>
+            <div class="small">"Isaac helped me regain my focus and trust before games. I now perform calmer and smarter."</div>
+          </div>
+          <div>
+            <strong>Actor — S.R.</strong>
+            <div class="small">"On-set nerves used to crush me. With these techniques I deliver my best takes under pressure."</div>
+          </div>
+          <div>
+            <strong>Coach — L.T.</strong>
+            <div class="small">"Practical, direct, and results-driven. A must-have for performers who take their craft seriously."</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="booking" class="section">
+        <h2>Book a Free 10-Min Intro</h2>
+        <div class="card">
+          <p class="small">Fill the quick form below or email <strong>yourname@yourbrand.com</strong>. Prefer DMs? <em>@yourhandle</em> on Instagram.</p>
+
+          <!-- Basic "mailto" fallback contact form for instant emailing -->
+          <form onsubmit="contactSubmit(event)" style="margin-top:12px">
+            <label for="name">Name</label>
+            <input id="name" name="name" required placeholder="Your name">
+
+            <label for="role">Role</label>
+            <select id="role" name="role">
+              <option>Athlete</option>
+              <option>Actor/Entertainer</option>
+              <option>Coach/Other</option>
+            </select>
+
+            <label for="notes">Notes / Upcoming Event</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Tell me about your goals or upcoming event"></textarea>
+
+            <label for="when">Preferred Date / Time</label>
+            <input id="when" name="when" placeholder="e.g., June 18 - afternoons">
+
+            <div style="margin-top:12px">
+              <button class="cta" type="submit">Send Request</button>
+            </div>
+
+            <div id="msg" style="margin-top:12px;color:var(--muted)"></div>
+          </form>
+
+          <script>
+            function contactSubmit(e){
+              e.preventDefault();
+              const name=document.getElementById('name').value.trim();
+              const role=document.getElementById('role').value;
+              const notes=document.getElementById('notes').value.trim();
+              const when=document.getElementById('when').value.trim();
+              const subject = encodeURIComponent('Intro Request: ' + name + ' (' + role + ')');
+              const body = encodeURIComponent('Name: ' + name + '\\nRole: ' + role + '\\nPreferred: ' + when + '\\nNotes: ' + notes);
+              const mailto = 'mailto:yourname@yourbrand.com?subject=' + subject + '&body=' + body;
+              // Open user's mail client
+              window.location.href = mailto;
+              document.getElementById('msg').innerText = 'Opening your email app to send the request...';
+            }
+          </script>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap">
+        <div>
+          <div style="font-weight:700">IM High-Performance Coaching</div>
+          <div class="small">High-Performance Mindset Coach — Isaac Mizrahi</div>
+        </div>
+        <div class="small">Email: yourname@yourbrand.com • Instagram: @yourhandle</div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
